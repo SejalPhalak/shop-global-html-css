@@ -9,7 +9,7 @@ body {
 /* MAIN NAVBAR */
 .navbar-main-container {
     background-color: #0C2B4E;
-    color: white;
+    color: rgb(228, 228, 229);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,6 +116,7 @@ body {
         justify-content: start;
     }
 }
+
 
 
 @media (max-width: 480px) {
