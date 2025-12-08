@@ -260,3 +260,17 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #61ae4f;
 }
+
+@media (max-width: 480px) {
+    .video-card {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .video-card video {
+        width: 100%;
+        height: auto;
+    }
+}
