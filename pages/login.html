@@ -58,25 +58,38 @@
             </div>
         </div>
 
-        <div class="right-section">
-            <h2 style="color: #fff;">USER LOGIN</h2>
+       <div class="right-section">
 
-            <div class="form-group">
-                <input type="text" id="name" placeholder="Username" required>
-            </div>
+    <h2 style="color: #fff;">USER LOGIN</h2>
 
-            <div class="form-group" style="margin-bottom: 20px;">
-                <input type="password" placeholder="Password" required>
-            </div>
+    <form action="#" method="post">
 
-            <a href="./../index.html" class="login-btn "
-                style="color: #fff; padding: 10px 60px; text-decoration: none;">Login</a><br>
-            <p> <a href="#" class="forgot" style="color: #fff;">Forgot your password?</a></p>
-            <p style="color: #f1efef;"> <a href="./signUp.html" class="login-btn "
-                    style="color: #fff; padding: 10px 50px; text-decoration: none;">Sign Up</a><br><br>Don't have an
-                account?</p>
-
+        <div class="form-group">
+            <input type="text" id="username" name="username" placeholder="Username" required minlength="3">
         </div>
+
+        <div class="form-group" style="margin-bottom: 20px;">
+            <input type="password" id="password" name="password" placeholder="Password"required minlength="6">
+        </div>
+
+<div style="margin: 8px 10px;">
+                <p > <a href="./../index.html" style="text-decoration: none; " ><button type="submit" style="background-color: #0C2B4E; padding: 12px 60px; color: #fff; cursor: pointer; border-radius: 8px; border: none;" >Login</button></a></p>
+            </div>
+        <p>
+            <a href="#" class="forgot" style="color: #fff;">Forgot your password?</a>
+        </p>
+
+            <a href="./signUp.html"
+               class="login-btn"
+               style="color: #fff; padding: 10px 50px; text-decoration: none;">
+                Sign Up
+            </a>
+            
+        <p style="color: #f1efef;">
+            Don't have an account?<br>
+        </p>
+
+    </form>
     </div>
     </div>
 
